@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: genai_labnote
+Version: 0.1.0
+Summary: An AI-powered lab notebook for Jupyter/Colab.
+Author-email: Your Name <your.email@example.com>
+Project-URL: Homepage, https://github.com/your-username/genai-lab-notebook
+Project-URL: Issues, https://github.com/your-username/genai-lab-notebook/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ipython
+Requires-Dist: pandas
+Requires-Dist: faiss-cpu
+Requires-Dist: sentence-transformers
+Requires-Dist: torch
+Requires-Dist: transformers[torch]
+Dynamic: license-file

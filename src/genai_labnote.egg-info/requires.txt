@@ -1,0 +1,6 @@
+ipython
+pandas
+faiss-cpu
+sentence-transformers
+torch
+transformers[torch]
