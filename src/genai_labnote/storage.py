@@ -57,7 +57,7 @@ class VectorStore:
         self.logs.append(log_entry)
         self.save_index()
         
-        print(f"✅ Experiment logged with ID {log_entry['id']}.")
+        print(f"Experiment logged with ID {log_entry['id']}.")
         
     def search(self, query, k=5):
         """Searches the vector store for a given query."""

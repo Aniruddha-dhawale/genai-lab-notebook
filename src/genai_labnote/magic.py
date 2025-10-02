@@ -1,7 +1,6 @@
 # src/genai_labnote/magic.py
 
 from IPython import get_ipython
-# ‼️ REMOVE THE LINE BELOW ‼️
 # from IPython.core.magic import register_cell_magic 
 from .core import ExperimentLogger
 
@@ -14,7 +13,6 @@ def get_logger():
         _logger_instance = ExperimentLogger()
     return _logger_instance
 
-# ‼️ REMOVE THE @register_cell_magic DECORATOR FROM HERE ‼️
 def log_experiment(line, cell):
     """
     Magic command to log the contents of a cell.
