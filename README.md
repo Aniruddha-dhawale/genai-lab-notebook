@@ -35,3 +35,10 @@ Install the package from the Python Package Index (PyPI):
 
 ```bash
 pip install genai_labnote
+```
+
+### 3. Configuration
+The system requires your Gemini API key to be accessible as an environment variable. The recommended way to manage this for local development is with a `.env` file.
+
+### 4. Usage Example
+Refer to examples folder for sample usage and required practices.
